@@ -1,8 +1,9 @@
 package OOP.LatihanEnkapsulasi;
 
 public class Pembelian {
-    public int total, harga=2000;
+    public int total;
     private int jumlah;
+    Barang b=new Barang();
 
     public void setJumlah(int jumlahh){
         jumlah=jumlahh;
@@ -13,7 +14,7 @@ public class Pembelian {
     }
 
     public int totalBelanja(int jumlah){
-        total=harga*jumlah;
+        total=b.getHarga()*jumlah;
         return total;
     }
 }
