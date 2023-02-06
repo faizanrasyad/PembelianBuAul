@@ -2,7 +2,6 @@ package OOP.LatihanEnkapsulasi;
 
 import java.util.Scanner;
 
-import javax.xml.transform.Source;
 public class TestPembelian {
     public static void main(String[] args) {
         Scanner in=new Scanner (System.in);
